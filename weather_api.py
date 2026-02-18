@@ -7,7 +7,7 @@ from config import city, temp_high,temp_low, windy_speed
 
 #open weather api configuration
 load_dotenv()
-api_key = os.getenv("open_weather_api")
+api_key = os.getenv("openweather_api_key")
 URL = "https://api.openweathermap.org/data/3.0/onecall?"
 parameters = {"lat": city['lat'], "lon": city['lon'], "appid": api_key, "units": "metric"}
 
