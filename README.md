@@ -1,4 +1,4 @@
-# **Rain Rain, go away**
+# **Weather Suggestion Bot**
 
 In case you have been living under a rock, then you would know that it rained in the UK every day of 2026 so far.
 A truly miserable experience. As someone who commutes for work, this meant that any day that I didn't check the weather, for one reason or another, meant that leaving my umbrella at home
