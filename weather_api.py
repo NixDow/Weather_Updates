@@ -42,8 +42,8 @@ def message_gen(weather_data):
 
     # Rain
     if "Rain" in main:
-        if "light" in description:
-            return f"Light rain today in {city['name']}, bring a waterproof jacket."
+        if "moderate" in description:
+            return f"Moderate rain today in {city['name']}, bring a waterproof jacket."
         return f"Heavy rain today in {city['name']}! Make sure to bring an umbrella."
 
     # Snow
