@@ -41,13 +41,13 @@ def message_gen(weather_data):
     wind_speed = weather_data['daily'][0]['wind_speed']
 
     # Rain
-    if "rain" in main:
+    if "Rain" in main:
         if "light" in description:
             return f"Light rain today in {city['name']}, bring a waterproof jacket."
         return f"Heavy rain today in {city['name']}! Make sure to bring an umbrella."
 
     # Snow
-    if "snow" in main:
+    if "Snow" in main:
         return f" Snowfall expected in {city['name']}. Don't forget your boots, coat and gloves"
     
     # Hot
@@ -62,4 +62,5 @@ def message_gen(weather_data):
     if wind_speed > windy_speed:
         return f"Windy conditions in {city['name']}. Hold onto your hat!"
 
-    return "Have a great day!"
+    return f"{main} today in {city['name']}. Have a great day!"
+
